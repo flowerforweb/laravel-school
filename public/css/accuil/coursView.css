@@ -1,0 +1,101 @@
+.land-div{
+    width: 100%;
+    height: 10vh;
+    padding: .2rem 1rem;
+    position: relative;
+    top: .5rem;
+}
+.land-div .inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.land-div .inner h2{
+    font-size: 1.4rem;
+    color: dodgerblue;
+    text-shadow: 1px 1px 1px rgb(214, 50, 187),-1px -1px 1px rgb(248, 239, 247);
+    letter-spacing: 2px;
+}
+.land-div .inner .search{
+    width: 35%;
+    height: 7vh;
+    border-radius: 7vh;
+    padding: .2rem;
+}
+.land-div .inner .search form{
+    width: 100%;
+    height: 100%;
+    border-radius: 7vh;
+    position: relative;
+}
+.land-div .inner .search form .inner{
+    width: 100%;
+    height: 100%;
+    border-radius: 7vh;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    overflow: hidden;
+    background-color: rgb(243, 158, 243);
+}
+.land-div .inner .search form .inner input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background:none;
+    border: none;
+    padding: 0rem 1rem;
+    font-size: 1.1rem;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+.land-div .inner .search form .inner input::placeholder{
+    color: rgb(80, 164, 248);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.land-div .inner .search form .inner button{
+    width: 100%;
+    height: 100%;
+    background:none;
+    border: none;
+    padding: .4rem 0rem;
+}
+.land-div .inner .search form .inner button i{
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid rgb(247, 69, 217);
+}
+.cours-view{
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 1.5rem ;
+    padding: .5rem 1.2rem;
+    height: auto;
+    display: flex;
+}
+.cours-view .cours{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: .5rem;
+    flex-wrap: wrap;
+}
+.cours-view .cours .cour{
+    width: 350px;
+    height: 320px;
+    background:linear-gradient(90deg , #fd5394 , rgb(233, 79, 233));
+    margin: .5rem 0rem;
+    border-radius: 15px;
+}
